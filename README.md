@@ -11,7 +11,7 @@ An incremental pinball prototype for Roblox. Roll balls gacha style, and a hoppe
 
 ## How it's built
 
-- About 17,400 lines of Luau in client, server and shared modules, synced into Roblox Studio with Rojo.
+- Luau code split into client, server and shared modules, synced into Roblox Studio with Rojo.
 - Owned balls are stored as one count per variant, not one object per ball, so a million identical balls is a single number in the save.
 - An event bus connects game events without the services knowing about each other.
 - The UI uses Vide, a reactive UI library (MIT licensed, included in `src/shared/Vide`), and adapts to phone screens.
@@ -21,4 +21,4 @@ An incremental pinball prototype for Roblox. Roll balls gacha style, and a hoppe
 
 Install Rojo, run `rojo serve`, and connect the Rojo plugin in Roblox Studio. The pinball table itself is built in the place file, which isn't in this repo.
 
-Built solo by Sean Aminov, with AI coding assistants helping along the way.
+Built solo by Sean Aminov.
